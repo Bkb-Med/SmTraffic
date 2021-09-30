@@ -1,0 +1,17 @@
+{
+  "name": "mqttjavascript",
+  "version": "1.0.0",
+  "description": "mqtt for smart traffic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "boukbab mhamed",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^8.2.7",
+    "firebase-admin": "^9.5.0",
+    "mosca": "^2.8.3",
+    "mqtt": "^4.2.6"
+  }
+}

@@ -1,0 +1,78 @@
+server////
+//mac add:DEADBEEFFEED
+//https://www.youtube.com/watch?v=um_KhXbWiSw&t=252s&ab_channel=MadeEasy
+
+
+
+
+var fs = require("fs");
+/* setInterval(() => {
+    messageFromserver.payload = messageFromserver.payload + 1;
+    messageFromserver.payload = messageFromserver.payload.toString();
+    server.publish(messageFromserver);
+    console.log("publisher_server msg");
+  }, 5000);*/
+
+
+
+
+
+var messageFromserver = {
+  topic: "Trafficlight/duration",
+  payload: 0, // or a Buffer
+  qos: 1, // 0, 1, or 2
+  retain: false, // or true
+};
+var Authorizer = require("mosca/lib/authorizer");
+function loadAuthorizer(credentialsFile, cb) {
+  if (credentialsFile) {
+    fs.readFile(credentialsFile, function (err, data) {
+      if (err) {
+        cb(err);
+        return;
+      }
+
+      var authorizer = new Authorizer();
+
+      try {
+        authorizer.users = JSON.parse(data);
+        cb(null, authorizer);
+      } catch (err) {
+        cb(err);
+      }
+    });
+  } else {
+    cb(null, null);
+  }
+}
+
+function setup() {
+  console.log("::server is up and running::___ENSIAS@2020__miola::");
+
+  loadAuthorizer("credentials.json", function (err, authorizer) {
+    if (err) {
+      console.log("error occured!!");
+    }
+
+    if (authorizer) {
+      server.authenticate = authorizer.authenticate;
+      server.authorizeSubscribe = authorizer.authorizeSubscribe;
+      server.authorizePublish = authorizer.authorizePublish;
+    }
+  });
+}
+
+
+///client
+
+var client = mqtt.connect("mqtt://192.168.1.3:8993", {
+  clientId: "Device_2",
+  clean: false,
+  username: "boukbab",
+  password: "ensias",
+
+  keyPath: KEY,
+  certPath: CERT,
+  rejectUnauthorized: true,
+  ca: caFile,
+});
