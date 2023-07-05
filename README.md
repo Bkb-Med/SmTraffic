@@ -26,5 +26,5 @@
 ![alt text](https://github.com/Bkb-Med/SmTraffic/blob/main/cricuit.png)
 
 ## Démo
-[<img src="https://img.youtube.com/vi/U3FQY2vf0Mg/maxresdefault.jpg" width="100%">](youtube.com/watch?v=U3FQY2vf0Mg>)
 
+[![Watch the video](https://img.youtube.com/vi/U3FQY2vf0Mg/maxresdefault.jpg)](https://youtu.be/U3FQY2vf0Mg)
