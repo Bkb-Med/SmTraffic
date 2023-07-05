@@ -9,7 +9,7 @@
   
 ## Solution 
 
-- Cameras de surveillance pour detecter et acquérir des images des véhicules ensuite on estime le nombre des véhicules et leurs vitesses.
+- Cameras de surveillance pour détecter et acquérir les images des véhicules ensuite on estime le nombre des véhicules et leurs vitesses moyennes.
 - Estimer la densité routière.
 - Prédiction de la durée d'allumage de chaque couleur.
 - Notification les autres automobilistes.
