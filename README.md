@@ -5,7 +5,7 @@
 - l'insatisfaction chez eux et parfois la colère.
 - la pollution et la surconsommation de l'énergie.
 - Durée constante d'allumage des feux tricolores.
-- Le système de contrôle manuelle demande un grand nombre de policiers
+- Le système de contrôle manuel demande un grand nombre de policiers
   
 ## Solution 
 
