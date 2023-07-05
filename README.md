@@ -12,8 +12,8 @@
 - Cameras de surveillance pour détecter et acquérir les images des véhicules ensuite on estime le nombre des véhicules et leurs vitesses moyennes.
 - Estimer la densité routière.
 - Prédiction de la durée d'allumage de chaque couleur.
-- Notification les autres automobilistes.
-- Obtenir Un délai idéal d’allumage pour chaque couleur.
+- Notifier les autres automobilistes.
+- Obtenir un délai idéal d’allumage pour chaque couleur.
 
 ![alt text](https://github.com/Bkb-Med/SmTraffic/blob/main/sadt.png)
 
