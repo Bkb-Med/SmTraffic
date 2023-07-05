@@ -15,8 +15,14 @@
 - Notification les autres automobilistes.
 - Obtenir Un délai idéal d’allumage pour chaque couleur.
 
+![alt text](https://github.com/Bkb-Med/SmTraffic/blob/main/sadt.png)
+
 ![alt text](https://github.com/Bkb-Med/SmTraffic/blob/main/gestion%20du%20trafic.png)
 
 ![alt text](https://github.com/Bkb-Med/SmTraffic/blob/main/densit%C3%A9%20routi%C3%A8re.png)
 
-![alt text](https://github.com/Bkb-Med/SmTraffic/blob/main/sadt.png)
+![alt text](https://github.com/Bkb-Med/SmTraffic/blob/main/sft.png)
+
+![alt text](https://github.com/Bkb-Med/SmTraffic/blob/main/cricuit.png)
+
+
