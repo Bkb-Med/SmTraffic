@@ -21,9 +21,11 @@
 
 ![alt text](https://github.com/Bkb-Med/SmTraffic/blob/main/densit%C3%A9%20routi%C3%A8re.png)
 
-![alt text](https://github.com/Bkb-Med/SmTraffic/blob/main/sft.png)
+## Chronogramme
+![alt text](https://github.com/Bkb-Med/SmTraffic/blob/main/chronologie.png)
 
-![alt text](https://github.com/Bkb-Med/SmTraffic/blob/main/cricuit.png)
+## Schéma électronique 
+![alt text](https://github.com/Bkb-Med/SmTraffic/blob/main/ce.png)
 
 ## Démo
 
